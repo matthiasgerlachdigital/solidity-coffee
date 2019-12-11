@@ -9,8 +9,8 @@ ethereum.
 2. Learn Truffle (https://www.trufflesuite.com/tutorials/pet-shop) 
 
 ## getting started with the contract 
-install truffle: see 
-start truffle: "truffle develop"
-run the tests: "truffle (develop)> test"
+1. start truffle: "truffle develop"
+2. run the tests: "truffle (develop)> test"
+
 
 
