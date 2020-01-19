@@ -16,8 +16,9 @@ This is how I went about the Coffee contract. I tried to copy the methods from t
 
 Oh, and I wrote the test cases in JavaScript, as this may pave me the way towards writing a sleek user interface for my contract at some point in time. 
 
+
 ## What I learned (quick read)
-* **truffle develop is your friend** - truffle develop gives you a full development and test enviroment including 10 accounts and a console. What more do you want. 
+* **truffle develop is your friend** - truffle develop gives you a full development and test enviroment including 10 accounts and a console. What more do you want? 
 * **RTFM** - indeed most of the learnings were out in the clear in the truffle or solidity documentation. Often, I needed to see things fail to read again, and find my fault. 
 * **to .call() or not to .call()** - using .call() on contract functions does not alter the state of the contract 
 * **promises everywhere** - calling a contract is asynchronous - and you will almost always be returned a promise, at least for the direct calls of contract functions. 
@@ -28,6 +29,10 @@ Oh, and I wrote the test cases in JavaScript, as this may pave me the way toward
 * **await / then() helps with exceptions from the contract** - if you are using, e.g., ´require´ or ´revert statements in your contract and you expect an exception, you can catch it with the second parameter in then(). Do not forget to await the result of your function. 
 
 There is probably a lot more to it ... 
+
+## Open Issues
+* test coverage: 
+    * Missing coverage of the dirtLevel functions  
 
 ## References 
 [1]: c't 23/2019, pp. 82; https://www.heise.de/select/ct/2019/23/1572964271250058 
