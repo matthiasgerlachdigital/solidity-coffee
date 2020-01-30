@@ -119,6 +119,9 @@ We need to fulfil the prerequisites dictated by the contract, i.e.:
 
 By now, the UI should display a CoffeeLevel of '25'. So this seems to work. Now, if we're drawing a coffee using ```truffle (develop)> await coffee.drawCoffee(1,{from:accounts[0]})```, that value should decrease. Yeah! 
 
+## Writing to the contract 
+This was straightforward. Just did it as described in the tutorial [React Drizzle][1].
+
 ## References 
 [1] https://www.trufflesuite.com/tutorials/getting-started-with-drizzle-and-react
 
