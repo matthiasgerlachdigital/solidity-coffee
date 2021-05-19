@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: solidity-coffee
+  annotations:
+    github.com/project-slug: matthiasgerlachdigital/solidity-coffee
+spec:
+  type: other
+  lifecycle: unknown
+  owner: matthiasgerlachdigital
